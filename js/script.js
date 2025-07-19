@@ -1,3 +1,15 @@
+window.addEventListener('DOMContentLoaded', function() {
+    let initialName = this.prompt("Enter your name:");
+    const welcomeUserElement = document.getElementById('welcome-user-identifier');
+    if (initialName) {
+        welcomeUserElement.textContent = initialName;
+    } else {
+        welcomeUserElement.textContent = 'Guest';
+    }
+
+
+})
+
 function validateForm() { 
     const name = document.getElementById('name-input');
     const dob = document.getElementById("dob-input");
