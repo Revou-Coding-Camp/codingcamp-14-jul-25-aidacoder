@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan 2</title>
+
+    <!-- CSS External Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <!-- Header Content with Tailwind CSS -->
+    <header class="flex justify-between items-center p-[8px] bg-purple-200">
+        <!-- Logo Icon -->
+        <!-- <div class="h-16 w-16 bg-[url(https://picsum.photos/200)] rounded-full bg-center bg-cover"></div> -->
+        <div class="logo-img"></div>
+        <nav class="flex">
+            <a class="border rounded-[4px] py-[4px] px-[8px] text-decoration-none m-px" href="#home-page">Home</a>
+            <a class="border rounded-[4px] py-[4px] px-[8px] text-decoration-none m-px" href="#our-profile">Our Profile</a>
+            <a class="border rounded-[4px] py-[4px] px-[8px] text-decoration-none m-px" href="#message-us">Message Us</a>
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Content -->
+        <section id="home-page" class="bg-purple-300 p-4">
+            <header>
+                <h1 class="text-2xl font-bold text-center my-4">Welcome <span id="welcome-user">[User]</span> to my flower
+
+                </h1>
+            </header>
+
+            <div>
+                <p class="text-center">Flowers symbolize a short but beautiful life, always cherish every moment of happiness.".</p>
+
+                 <div class="banner-img"></div> 
+            </div>
+        </section>
+
+        <hr />
+
+        <!-- Our Profile Content -->
+        <section id="our-profile" class="bg-purple-300" >
+            <header>
+                <h2 class="text-xl font-semibold text-center my-4 bg-purple-200" >Our Profile</h2>
+            </header>
+
+            <article>
+                <p class="text-center">
+                    welcome to 
+                    <span class="font-bold text-blue-500">marhalida sinaga</span> flower shop, where we bring the beauty of nature to your doorstep. 
+                    <br>Our passion for flowers is reflected in every bouquet we create, ensuring that each arrangement is a masterpiece of color and fragrance.<br>
+                     Whether you're celebrating a special occasion or simply want to brighten someone's day, our carefully curated selection of fresh flowers is sure to delight. <br>
+                     Thank you for choosing us to be a part of your floral journey.
+                </p>
+             <div class="flex justify-center items-center mt-4">
+                <div class="logo-img1"></div>
+                <div class="logo-img2"></div>
+                <div class="logo-img3"></div>
+                <div class="logo-img4"></div>
+                <div class="logo-img5"></div>
+            </div>
+            <div class=""> Contact us
+              <p><link rel="stylesheet" href=""> intagram</p>
+            </div>
+
+            </article>
+
+        </section>
+
+        <hr />
+
+        <section id="message-us" class="bg-purple-200 p-4">
+            <header>
+                <h2 class="text-xl font-semibold text-center my-4">Message Us</h2>
+            </header>
+        
+            <form class="flex justify content right;">
+                <div class="flex flex-col">
+                    <!-- Name Input -->
+                    <label for="name-input" class="mb-2">Name
+                        <input type="text" id="name-input" name="name" class="border rounded p-2 mb-4 w-1/2 ml-12" placeholder="Enter your name">
+                    </label>
+        
+                    <!-- Date of Birth Input -->
+                    <label for="dob-input" class="mb-2 ">Date of Birth
+                        <input type="date" id="dob-input" name="dob" class="border rounded p-2 mb-4 w-1/2">
+                    </label>
+        
+                    <!-- Gender Radio Buttons -->
+                    <div class="mb-4">
+                        <p class="mb-2">Gender</p>
+                        <label class="mr-4">
+                            <input type="radio" id="gender" name="gender" value="male"> Male
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="female"> Female
+                        </label>
+                    </div>
+
+                    <label for="message-input" class="mb-2 ">message</label>
+                        <textarea id="message-input" name="message" class="border rounded p-2 mb-4 w-1/2" rows="4" placeholder="Write your message"> </textarea>
+                    
+        
+                    <!-- Submit Button -->
+                    <button onclick="validateForm();" type="button"
+                        class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">Send
+                        Message</button>
+                        
+                </div>
+                <div class="box">
+                    <h3></h3>
+                    <div id="display-name" class="text-center mt-4">Message us</div>
+                    <div id="display-dob" class="text-center mt-4"></div>
+                    <div id="display-message" class="text-center mt-4"></div>
+                    <div id="display-gender" class="text-center mt-4"></div> 
+                </div>
+            </form>
+           
+            
+           
+            
+        </section>
+
+        
+                            
+
+
+
+    <!-- Footer Content -->
+    <footer>
+        <p class="text-center text-gray-600 py-4">© 2025 marhalida sinaga. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript External Link -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+.banner-img {
+    height: 390px;
+    background-image: url(bunga\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.logo-img {
+    height: 94px;
+    width: 94px;
+    background-image: url(logo.jpg);
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+section {
+    min-height: 500px;
+    align-content: center;
+}
+
+.logo-img1 {
+    height: 104px;
+    width: 104px;
+    background-image: url(bibit.jpg);
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-img2 {
+    height: 104px;
+    width: 104px;
+    background-image: url(bunga3.jpg);
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.logo-img3 {
+    height: 104px;
+    width: 104px;
+    background-image: url(bunga4.jpg);
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-img4 {
+    height: 104px;
+    width: 104px;
+    background-image: url(bunga5.jpg);
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-img5 {
+    height: 100px;
+    width: 100px;
+    background-image: url(bunga1.jpg);
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0,
+   
+}
